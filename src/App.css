@@ -1,0 +1,240 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.App {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+  .list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: auto;
+  }
+  
+  h1 {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #8bab3a;
+    margin: 10px 0px;
+  }
+  h2{
+    font-weight: 700;
+    font-size: 33px;
+    color: #4d750d;
+    margin: 5px 0px;
+  }
+
+  h3{
+    font-family: 'Playfair Display SC', serif; 
+    color: #256875;
+  }
+  
+  h2, ul, p {
+    font-family: 'Smooch Sans', serif;
+  }
+  
+  .foodpicture {
+  width: 300px;
+  height : 300px;
+  margin: 20px auto;
+  border-radius: 50%;
+  border: 5px solid #fafafa;
+  }
+
+  .cookie{
+    width: 80px;
+    margin: 40px auto 0 auto;
+  }
+  
+.App {
+  text-align: center;
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgb(253, 252, 252, 0,5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo{
+  width: 120px;
+  margin: 50px auto 10px auto;
+}
+
+.object{
+  margin: 10px 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.info{
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #333333;
+}
+.heart {
+  color: #333333;
+  font-weight: 300;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+.heart:hover{
+  color: #ce0d10;
+}
+
+.kcal {
+  font-weight: 300;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+.btnicon{
+  background: transparent;
+  border: none;
+}
+.searchicon{
+  color: #2f8495;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+
+}
+.searchicon:hover{
+  color: #ce0d10;
+}
+
+form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 60%;
+  margin: auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.searchinput{
+  outline: none;
+  background: transparent;
+  border: none;
+  color: #333333;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 22px;
+  width: 100%; 
+}
+.line{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+  text-decoration: none;
+  font-family: 'Encode Sans Semi Expanded', sans-serif;
+  font-size: 13px;
+  font-weight: 300;
+  color: #2f8495;
+  padding: 20px 0 0 0;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+a {
+  color: black;
+  font-weight: lighter;
+}
+
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 6px 10px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #a8ca54;
+  width: 35px;
+  height: 35px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #a8ca54;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+@media all and (max-width: 500px) {
+  .App{
+    width: 100%;
+  }
+  .foodpicture {
+    width: 230px;
+    height: 230px;
+  }
+}
+
+@media all and (max-width: 300px) {
+  .App{
+    width: 100%;
+  }
+  .foodpicture {
+    width: 200px;
+    height: 200px;
+  }
+}
