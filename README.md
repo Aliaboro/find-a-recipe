@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+ 
+# Recipe Finder App
+ 
+A React application that uses an API to find recipes based on a given ingredient.
+ 
+## Demo
+ 
+Try out the application here: [https://find-and-cook.netlify.app/](https://find-and-cook.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image-demo](https://github.com/user-attachments/assets/8017c43c-a920-422d-bb45-2cfa37e8ed63)
+ 
+## Table of Contents
+ 
+* [Introduction](#introduction)
+* [Features](#features)
+* [Installation](#installation)
+* [Usage](#usage)
+* [API Documentation](#api-documentation)
+* [Contributing](#contributing)
+* [License](#license)
+ 
+## Introduction
+ 
+This application allows users to search for recipes by entering an ingredient. The app uses a third-party API to fetch recipe data and display it to the user.
+ 
+## Features
+ 
+* Search for recipes by ingredient
+* Display recipe details, including ingredients, calories, weight, instructions, images and number of people who liked the recipe
+ 
+## Installation
+ 
+1. Clone the repository: git clone https://github.com/Aliaboro/find-a-recipe.git
+2. Install dependencies: npm install
+3. Start the application: npm start
+ 
+## Usage
+ 
+1. Open the application in a web browser: http://localhost:3000
+2. Enter an ingredient in the search bar
+3. Click the "Search" button to fetch recipe data
+4. Browse through recipe results and click on a Instructions to view details
+ 
+## API Documentation
+ 
+The application uses the Recipe Search API to fetch recipe data. API documentation can be found at: https://www.edamam.com/
+ 
+## Contributing
+ 
+Contributions are welcome! If you'd like to contribute to the project, please fork the repository and submit a pull request.
+ 
+## License
+ 
+This project is licensed under the MIT License.
+ 
+## Credits
+ 
+* Recipe Search API: https://www.edamam.com/
+* React: https://reactjs.org/
+* Create React App: https://create-react-app.dev/
+ 
+## Contact
+ 
+If you have any questions or need help with the application, please contact [aliya.borovik@gmail.com](mailto:aliya.borovik@gmail.com).
